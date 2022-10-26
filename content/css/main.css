@@ -1,0 +1,41 @@
+.selections{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.selections button{
+    font-size:80px;
+    margin: 20px;
+    cursor: pointer;
+    background: none;
+    border: none;
+    outline: none;
+}
+
+.selections button:hover{
+    transform: scale(1.5);
+}
+
+.game{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.game h2{
+    margin: 30px;
+}
+
+.span{
+    color: #ccc;
+}
+
+.Result{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 30px;
+}
+
+
