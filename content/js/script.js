@@ -5,9 +5,9 @@
  const computerdisplay=document.getElementById('computer')
  const resultEl=document.getElementById('result')
  const possibleChoices=document.querySelectorAll('button')
- let user
- let computer
- let result
+ let user;
+ let computer;
+ let result;
 
 possibleChoices.forEach(possibleChoice =>possibleChoice.addEventListener('click',(e)=>{
     user= e.target.id
